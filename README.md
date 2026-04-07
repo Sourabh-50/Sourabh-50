@@ -5,76 +5,68 @@ Cloud • AWS • DevOps • Web Development
 </h3>
 
 <p align="center">
-<img src="https://readme-typing-svg.herokuapp.com/?color=00F7FF&size=28&center=true&vCenter=true&width=700&lines=Cloud+Engineer+in+Progress;DevOps+%26+Automation+Enthusiast;AWS+Cloud+Learner;Building+Real+World+Projects;Web+Development+Explorer" />
+<img src="https://readme-typing-svg.herokuapp.com/?color=00F7FF&size=28&center=true&vCenter=true&width=700&lines=Cloud+Engineer+in+Progress;DevOps+%26+Automation+Enthusiast;AWS+Cloud+Learner;Building+Real+World+Projects;Web+Development+Explorer"/>
 </p>
 
 ---
 
-# 🚀 About Me
+## 🚀 About Me
 
-- Passionate about **Cloud Infrastructure, Automation, and Web Technologies**
-- Building projects combining **AWS + DevOps + Development**
-- Strong interest in **Linux systems and automation**
-- Learning by building **real-world deployments and cloud systems**
-- Based in **Pune, India**
+* Passionate about **Cloud Infrastructure, Automation, and Web Technologies**
+* Building projects combining **AWS + DevOps + Development**
+* Strong interest in **Linux systems and automation**
+* Learning by building **real-world deployments and cloud systems**
+* Based in **Pune, Maharashtra, India**
 
 ---
 
-# 🧰 Tech Stack
+## 🧰 Tech Stack
 
 ### Languages & Development
 
 <p>
-<img src="https://skillicons.dev/icons?i=html,css,js,python,bash" />
+<img src="https://skillicons.dev/icons?i=html,css,js,python,bash"/>
 </p>
 
 ### Cloud & DevOps
 
 <p>
-<img src="https://skillicons.dev/icons?i=aws,docker,linux,git,github" />
+<img src="https://skillicons.dev/icons?i=aws,docker,linux,git,github"/>
 </p>
 
 ### Tools
 
 <p>
-<img src="https://skillicons.dev/icons?i=vscode" />
+<img src="https://skillicons.dev/icons?i=vscode"/>
 </p>
 
 ---
 
-# 📊 GitHub Statistics
+## 📊 GitHub Statistics
 
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=Sourabh-50&show_icons=true&theme=tokyonight"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Sourabh-50&theme=github_dark"/>
 </p>
 
 ---
 
-# 🔥 GitHub Contribution Streak
+## 📈 Most Used Languages
 
 <p align="center">
-<img src="https://streak-stats.demolab.com?user=Sourabh-50&theme=tokyonight"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Sourabh-50&theme=github_dark"/>
 </p>
 
 ---
 
-# 📈 Most Used Languages
+## 📊 GitHub Activity Graph
 
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sourabh-50&layout=compact&theme=tokyonight"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Sourabh-50&theme=github_dark"/>
 </p>
 
 ---
 
-# 📊 Activity Graph
-
-<p align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Sourabh-50&theme=tokyo-night"/>
-</p>
-
----
-
-# 🌐 Connect With Me
+## 🌐 Connect With Me
 
 <p>
 
@@ -90,4 +82,4 @@ Cloud • AWS • DevOps • Web Development
 
 ---
 
-⭐ Always learning. Always building.
+⭐ *Always learning. Always building.*
