@@ -1,27 +1,31 @@
 <h1 align="center">Hi 👋, I'm Sourabh Shinde</h1>
-<h3 align="center">Cloud • DevOps • Web Development</h3>
+
+<h3 align="center">
+Cloud • AWS • DevOps • Web Development
+</h3>
 
 <p align="center">
-<img src="https://readme-typing-svg.herokuapp.com/?color=00F7FF&size=28&center=true&vCenter=true&width=600&lines=Cloud+Engineer+in+Progress;AWS+Enthusiast;DevOps+Automation+Learner;Building+Real+World+Projects;Web+Development+Explorer" />
+<img src="https://readme-typing-svg.herokuapp.com/?color=00F7FF&size=28&center=true&vCenter=true&width=700&lines=Cloud+Engineer+in+Progress;DevOps+%26+Automation+Enthusiast;AWS+Cloud+Learner;Building+Real+World+Projects;Web+Development+Explorer" />
 </p>
 
 ---
 
 # 🚀 About Me
 
-* Passionate about **Cloud Infrastructure, Automation, and Web Technologies**
-* Building projects combining **AWS + DevOps + Development**
-* Strong believer in **learning by building real systems**
-* Interested in **scalable systems, automation and modern cloud platforms**
+- Passionate about **Cloud Infrastructure, Automation, and Web Technologies**
+- Building projects combining **AWS + DevOps + Development**
+- Strong interest in **Linux systems and automation**
+- Learning by building **real-world deployments and cloud systems**
+- Based in **Pune, India**
 
 ---
 
 # 🧰 Tech Stack
 
-### Programming & Scripting
+### Languages & Development
 
 <p>
-<img src="https://skillicons.dev/icons?i=python,js,html,css,bash" />
+<img src="https://skillicons.dev/icons?i=html,css,js,python,bash" />
 </p>
 
 ### Cloud & DevOps
@@ -30,10 +34,10 @@
 <img src="https://skillicons.dev/icons?i=aws,docker,linux,git,github" />
 </p>
 
-### Tools & Environment
+### Tools
 
 <p>
-<img src="https://skillicons.dev/icons?i=vscode,postman" />
+<img src="https://skillicons.dev/icons?i=vscode" />
 </p>
 
 ---
@@ -46,7 +50,7 @@
 
 ---
 
-# 📈 GitHub Contribution Streak
+# 🔥 GitHub Contribution Streak
 
 <p align="center">
 <img src="https://streak-stats.demolab.com?user=Sourabh-50&theme=tokyonight"/>
@@ -54,7 +58,7 @@
 
 ---
 
-# 📊 Most Used Languages
+# 📈 Most Used Languages
 
 <p align="center">
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sourabh-50&layout=compact&theme=tokyonight"/>
@@ -62,7 +66,7 @@
 
 ---
 
-# 📈 Activity Graph
+# 📊 Activity Graph
 
 <p align="center">
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Sourabh-50&theme=tokyo-night"/>
@@ -86,4 +90,4 @@
 
 ---
 
-⭐ *Always learning. Always building.*
+⭐ Always learning. Always building.
