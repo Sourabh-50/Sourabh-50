@@ -1,61 +1,89 @@
-# Hello Dosto 👋
+<h1 align="center">Hi 👋, I'm Sourabh Shinde</h1>
+<h3 align="center">Cloud • DevOps • Web Development</h3>
 
-## 🚀 Cloud & DevOps Enthusiast
-
-Hi, I'm **Sourabh Shinde**
-Passionate about **Cloud Computing, DevOps and Automation**
-
----
-
-## 🚀 About Me
-
-* 🔭 Currently learning **AWS Cloud & DevOps**
-* 🌱 Working on **Docker, CI/CD, Infrastructure Automation**
-* 💻 Practicing **DevOps projects & automation scripts**
-* 🎯 Goal: Become a **Cloud / DevOps Engineer**
-* 📍 Based in **Pune, India**
+<p align="center">
+<img src="https://readme-typing-svg.herokuapp.com/?color=00F7FF&size=28&center=true&vCenter=true&width=600&lines=Cloud+Engineer+in+Progress;AWS+Enthusiast;DevOps+Automation+Learner;Building+Real+World+Projects;Web+Development+Explorer" />
+</p>
 
 ---
 
-## 🛠 Tech Stack
+# 🚀 About Me
 
-### Languages
+* Passionate about **Cloud Infrastructure, Automation, and Web Technologies**
+* Building projects combining **AWS + DevOps + Development**
+* Strong believer in **learning by building real systems**
+* Interested in **scalable systems, automation and modern cloud platforms**
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
+---
+
+# 🧰 Tech Stack
+
+### Programming & Scripting
+
+<p>
+<img src="https://skillicons.dev/icons?i=python,js,html,css,bash" />
+</p>
 
 ### Cloud & DevOps
 
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge\&logo=amazonaws\&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge\&logo=docker\&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge\&logo=linux\&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge\&logo=git\&logoColor=white)
+<p>
+<img src="https://skillicons.dev/icons?i=aws,docker,linux,git,github" />
+</p>
+
+### Tools & Environment
+
+<p>
+<img src="https://skillicons.dev/icons?i=vscode,postman" />
+</p>
 
 ---
 
-## 📊 GitHub Stats
+# 📊 GitHub Statistics
 
-![Sourabh's GitHub stats](https://github-readme-stats.vercel.app/api?username=Sourabh-50\&show_icons=true\&theme=tokyonight)
-
----
-
-## 📈 GitHub Streak
-
-![GitHub Streak](https://streak-stats.demolab.com?user=Sourabh-50\&theme=tokyonight)
+<p align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=Sourabh-50&show_icons=true&theme=tokyonight"/>
+</p>
 
 ---
 
-## 📌 Top Languages
+# 📈 GitHub Contribution Streak
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Sourabh-50\&layout=compact\&theme=tokyonight)
-
----
-
-## 🌐 Connect With Me
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Sourabh-blue?style=for-the-badge\&logo=linkedin)](https://linkedin.com)
-
-[![Gmail](https://img.shields.io/badge/Gmail-Contact-red?style=for-the-badge\&logo=gmail)](mailto:sourabhshinde5050@gmail.com)
+<p align="center">
+<img src="https://streak-stats.demolab.com?user=Sourabh-50&theme=tokyonight"/>
+</p>
 
 ---
 
-⭐ **Always learning. Always building.**
+# 📊 Most Used Languages
+
+<p align="center">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sourabh-50&layout=compact&theme=tokyonight"/>
+</p>
+
+---
+
+# 📈 Activity Graph
+
+<p align="center">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Sourabh-50&theme=tokyo-night"/>
+</p>
+
+---
+
+# 🌐 Connect With Me
+
+<p>
+
+<a href="https://www.linkedin.com/in/sourabh5050/">
+<img src="https://img.shields.io/badge/LinkedIn-Sourabh-blue?style=for-the-badge&logo=linkedin"/>
+</a>
+
+<a href="mailto:sourabhshinde5050@gmail.com">
+<img src="https://img.shields.io/badge/Gmail-Contact-red?style=for-the-badge&logo=gmail"/>
+</a>
+
+</p>
+
+---
+
+⭐ *Always learning. Always building.*
