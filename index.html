@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sourabh Shinde — Cloud & DevOps</title>
+
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card: #161b22;
+      --muted: #8b949e;
+      --accent: #2f81f7; /* Cloud/Tech Blue */
+      --accent-hover: #388bfd;
+      --border: rgba(255,255,255,0.1);
+      --radius: 12px;
+      font-family: 'Inter', -apple-system, sans-serif;
+    }
+
+    * { box-sizing: border-box; scroll-behavior: smooth; }
+    body { margin: 0; background: var(--bg); color: #c9d1d9; line-height: 1.6; }
+    a { color: inherit; text-decoration: none; transition: 0.2s; }
+
+    .container { max-width: 1000px; margin: 0 auto; padding: 40px 20px; }
+
+    /* Professional Header */
+    header { 
+      display: flex; justify-content: space-between; align-items: center; 
+      padding-bottom: 40px; border-bottom: 1px solid var(--border);
+    }
+    .logo-area { display: flex; align-items: center; gap: 15px; }
+    .initials { 
+      background: var(--accent); color: white; padding: 10px; 
+      border-radius: 8px; font-weight: 800; font-size: 1.2rem;
+    }
+    nav { display: flex; gap: 20px; }
+    nav a { font-size: 0.9rem; color: var(--muted); font-weight: 500; }
+    nav a:hover { color: var(--accent-hover); }
+
+    /* Hero Section */
+    .hero { padding: 60px 0; display: grid; grid-template-columns: 1fr 300px; gap: 40px; align-items: center; }
+    .hero h2 { font-size: 2.5rem; margin: 0; color: #fff; line-height: 1.2; }
+    .hero p { font-size: 1.1rem; color: var(--muted); max-width: 600px; margin: 20px 0; }
+    
+    .status-badge {
+        display: inline-flex; align-items: center; gap: 8px;
+        background: rgba(47, 129, 247, 0.15); color: #58a6ff;
+        padding: 6px 14px; border-radius: 20px; font-size: 0.85rem; font-weight: 600; margin-bottom: 15px; border: 1px solid rgba(47, 129, 247, 0.3);
+    }
+
+    /* Skills Grid */
+    .skills-category { margin-bottom: 20px; }
+    .skills-category h5 { margin: 0 0 10px 0; font-size: 0.8rem; text-transform: uppercase; color: var(--muted); letter-spacing: 1px; }
+    .tags { display: flex; flex-wrap: wrap; gap: 8px; }
+    .tag { background: var(--card); border: 1px solid var(--border); padding: 4px 10px; border-radius: 6px; font-size: 0.85rem; }
+
+    /* Universal Sections */
+    .section-title { font-size: 1.5rem; margin: 0 0 20px 0; color: #fff; display: flex; align-items: center; gap: 10px; }
+    
+    /* Experience & Education Cards */
+    .exp-card {
+      background: linear-gradient(to right, var(--card), rgba(22, 27, 34, 0.5));
+      border: 1px solid var(--border); border-left: 4px solid var(--accent);
+      border-radius: var(--radius); padding: 25px; margin-bottom: 20px;
+    }
+    .exp-header { display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 10px; }
+    .exp-title { margin: 0; color: #fff; font-size: 1.3rem; }
+    .exp-company { color: var(--accent); font-weight: 600; margin-top: 4px; font-size: 1rem; }
+    .exp-date { color: var(--muted); font-size: 0.9rem; text-align: right; }
+    .exp-list { color: var(--muted); margin-top: 15px; padding-left: 20px; }
+    .exp-list li { margin-bottom: 8px; }
+
+    /* Project Cards */
+    .projects-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+    .proj-card { 
+      background: var(--card); border: 1px solid var(--border); border-radius: var(--radius);
+      padding: 24px; transition: all 0.3s ease; cursor: pointer; position: relative;
+      display: flex; flex-direction: column; justify-content: space-between;
+    }
+    .proj-card:hover { 
+      border-color: var(--accent); transform: translateY(-5px); 
+      box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+    }
+    .proj-card h4 { margin: 0 0 10px 0; color: #fff; font-size: 1.2rem; }
+    .proj-card p { font-size: 0.9rem; color: var(--muted); flex-grow: 1; margin-bottom: 15px; }
+    .proj-footer { margin-top: auto; display: flex; justify-content: space-between; align-items: center; }
+    .github-icon { opacity: 0.5; font-size: 1.2rem; }
+    .proj-card:hover .github-icon { opacity: 1; color: var(--accent); }
+
+    /* Contact */
+    .contact-card { background: linear-gradient(145deg, #161b22, #0d1117); border: 1px solid var(--border); padding: 40px; border-radius: var(--radius); text-align: center; }
+    footer { margin-top: 80px; padding: 20px; text-align: center; color: var(--muted); font-size: 0.8rem; border-top: 1px solid var(--border); }
+
+    @media (max-width: 768px) {
+      .hero { grid-template-columns: 1fr; text-align: center; }
+      .hero p { margin: 15px auto; }
+      header { flex-direction: column; gap: 20px; }
+      .exp-header { flex-direction: column; }
+      .exp-date { text-align: left; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <header>
+    <div class="logo-area">
+      <div class="initials">SS</div>
+      <div>
+        <h1 style="margin:0; font-size:1.2rem; color: #fff;">Sourabh Shinde</h1>
+        <code style="color:var(--accent); font-size:0.8rem;">Cloud Engineer & Web Explorer</code>
+      </div>
+    </div>
+    <nav>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="https://github.com/Sourabh-50" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="https://www.linkedin.com/in/sourabh5050/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div>
+      <div class="status-badge">● Always learning. Always building.</div>
+      <h2>Architecting robust systems in the <span style="color:var(--accent)">Cloud.</span></h2>
+      <p>Passionate about Cloud Infrastructure, Automation, and Web Technologies. Bridging the gap between software development and IT operations by building real-world projects with AWS and Linux systems.</p>
+      
+      <div style="margin-top:30px">
+        <div class="skills-category">
+            <h5>Cloud & DevOps</h5>
+            <div class="tags">
+                <span class="tag">AWS</span> <span class="tag">Docker</span> <span class="tag">Linux</span> <span class="tag">Bash Scripting</span> <span class="tag">Git & GitHub Actions</span>
+            </div>
+        </div>
+        <div class="skills-category">
+            <h5>Languages & Web</h5>
+            <div class="tags">
+                <span class="tag">Python</span> <span class="tag">JavaScript</span> <span class="tag">HTML5</span> <span class="tag">CSS3</span> 
+            </div>
+        </div>
+        <div class="skills-category">
+            <h5>Tools</h5>
+            <div class="tags">
+                <span class="tag">VS Code</span> <span class="tag">Terminal</span> <span class="tag">AWS CLI</span>
+            </div>
+        </div>
+      </div>
+    </div>
+    
+    <div style="text-align: right;" class="hide-mobile">
+        <div style="width:280px; height:280px; background:var(--card); border: 1px solid var(--border); border-radius: var(--radius); overflow:hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
+            <img src="Profile.jpg" alt="Sourabh Shinde" style="width:100%; height:100%; object-fit:cover;">
+        </div>
+    </div>
+  </section>
+
+  <section id="experience" style="margin-top:20px;">
+    <div class="section-title"><span>💼</span> Experience & Background</div>
+    
+    <div class="exp-card">
+      <div class="exp-header">
+        <div>
+          <h3 class="exp-title">Cloud & DevOps Enthusiast</h3>
+          <div class="exp-company">Independent Projects & Learning</div>
+        </div>
+        <div class="exp-date">
+          Present<br>Pune, Maharashtra
+        </div>
+      </div>
+      <ul class="exp-list">
+        <li>Designing and provisioning scalable cloud infrastructure using <strong>AWS</strong> services.</li>
+        <li>Automating daily operational tasks and deployments utilizing <strong>Bash</strong> and <strong>Python</strong> scripts.</li>
+        <li>Containerizing web applications with <strong>Docker</strong> to ensure consistent environments across development and production.</li>
+      </ul>
+      <div class="tags" style="margin-top:15px;">
+        <span class="tag">Infrastructure</span> <span class="tag">Automation</span> <span class="tag">Deployment</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" style="margin-top:60px;">
+    <div class="section-title"><span>🚀</span> Featured Projects</div>
+    <div class="projects-grid">
+
+      <a href="https://github.com/Sourabh-50" target="_blank" class="proj-card">
+        <div>
+          <h4>☁️ AWS 3-Tier Architecture</h4>
+          <p>Deployed a highly available and fault-tolerant web application utilizing EC2, RDS, and Application Load Balancers across multiple Availability Zones.</p>
+        </div>
+        <div class="proj-footer">
+          <div class="tags"><span class="tag">AWS</span><span class="tag">Linux</span><span class="tag">Networking</span></div>
+          <span class="github-icon">↗</span>
+        </div>
+      </a>
+
+      <a href="https://github.com/Sourabh-50" target="_blank" class="proj-card">
+        <div>
+          <h4>🔄 Automated CI/CD Pipeline</h4>
+          <p>Built a continuous integration and deployment pipeline using GitHub Actions to automatically test and deploy code updates to a cloud server.</p>
+        </div>
+        <div class="proj-footer">
+          <div class="tags"><span class="tag">GitHub Actions</span><span class="tag">Docker</span><span class="tag">Git</span></div>
+          <span class="github-icon">↗</span>
+        </div>
+      </a>
+
+      <a href="https://github.com/Sourabh-50" target="_blank" class="proj-card">
+        <div>
+          <h4>🐧 Linux Server Automation</h4>
+          <p>Developed custom Bash and Python scripts to automate system health checks, backups, and user management on Ubuntu instances.</p>
+        </div>
+        <div class="proj-footer">
+          <div class="tags"><span class="tag">Bash</span><span class="tag">Python</span><span class="tag">Linux</span></div>
+          <span class="github-icon">↗</span>
+        </div>
+      </a>
+
+      <a href="https://github.com/Sourabh-50" target="_blank" class="proj-card">
+        <div>
+          <h4>🌐 Containerized Web App</h4>
+          <p>Developed a front-end interface using HTML/CSS/JS and packaged the entire application stack into a Docker container for seamless portability.</p>
+        </div>
+        <div class="proj-footer">
+          <div class="tags"><span class="tag">Docker</span><span class="tag">JavaScript</span><span class="tag">Web Dev</span></div>
+          <span class="github-icon">↗</span>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+  <section id="contact" style="margin-top:80px">
+    <div class="contact-card">
+      <h3 style="margin-top:0; font-size:1.8rem; color:#fff;">Let's Connect</h3>
+      <p style="color:var(--muted); font-size:1.1rem; max-width: 500px; margin: 0 auto 20px;">
+        I'm always looking to tackle new challenges in Cloud Engineering and DevOps. Feel free to reach out if you want to collaborate or just talk tech.
+      </p>
+      <a href="mailto:sourabhshinde5050@gmail.com" class="tag" style="padding: 14px 28px; background: var(--accent); border:none; color:white; font-size: 1rem; font-weight:bold; display:inline-block; margin-top:10px; cursor: pointer;">
+        sourabhshinde5050@gmail.com
+      </a>
+      <p style="margin-top: 20px; font-size: 0.9rem; color: var(--muted);">
+        <a href="https://www.linkedin.com/in/sourabh5050/" target="_blank" rel="noopener noreferrer" style="color: var(--accent); font-weight: bold; text-decoration: underline;">LinkedIn</a> | Location: Pune, Maharashtra, India
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Sourabh Shinde • Architecting the future</p>
+  </footer>
+</div>
+
+</body>
+</html>
