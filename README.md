@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Sourabh Shinde</h1>
 
 <h3 align="center">
-Cloud • AWS • DevOps • Web Development
+Cloud • AWS • DevOps • Forward Deployed Engineer • Web Development
 </h3>
 
 <p align="center">
